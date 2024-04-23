@@ -1,3 +1,4 @@
+import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vite";
 import {
   resolver,
@@ -28,6 +29,7 @@ export default defineConfig(({ mode }) => {
       compatPrebuild(),
       assets(),
       contentFor(),
+      tailwindcss(),
 
       babel({
         babelHelpers: "runtime",
