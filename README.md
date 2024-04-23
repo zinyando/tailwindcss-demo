@@ -1,7 +1,8 @@
 # tailwindcss-demo
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A demo for setting up Tailwindcss v4 with Ember.js running on Vite.
+
+This runs on Tailwindcss v4 alpha versions and will be updated when beta and stable releases land.
 
 ## Prerequisites
 
